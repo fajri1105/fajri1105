@@ -71,6 +71,10 @@ body{
 .s-card-outline{
     border: 2px solid var(--hijau1);
 }
+.s-input{
+    width: 100%;
+    
+}
 @media screen and (max-width: 768px){
     .s-card-outline{
         margin: auto;
