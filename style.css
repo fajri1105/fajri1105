@@ -77,6 +77,11 @@ body{
     height: 320px;
     overflow: auto;
 }
+.s-top{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
 
 @media screen and (max-width: 768px){
     .s-card-outline{margin: auto;}
