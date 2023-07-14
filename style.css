@@ -20,11 +20,11 @@ body{
 .s-color-hijau3{color: var(--hijau3);}
 .s-color-hijau1{color: var(--hijau1);}
 .s-color-dark{color: var(--dark);}
+.s-color-abu{color: rgb(173, 173, 173);}
 .s-fs-7{font-size: .9rem;}
 .s-fs-8{font-size: .7rem;}
 .text-justify{text-align: justify;}
 .s-d-block{display: block !important;}
-
 
 .s-navbar{
     width: 100%;
