@@ -21,7 +21,10 @@ body{
 .s-color-hijau1{color: var(--hijau1);}
 .s-color-dark{color: var(--dark);}
 .s-fs-7{font-size: .9rem;}
+.s-fs-8{font-size: .7rem;}
 .text-justify{text-align: justify;}
+.s-d-block{display: block !important;}
+
 
 .s-navbar{
     width: 100%;
@@ -68,20 +71,20 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.s-card-outline{
-    border: 2px solid var(--hijau1);
+.s-card-outline{border: 2px solid var(--hijau1);}
+.s-input{ width: 100%;}
+.s-hight-card{
+    height: 320px;
+    overflow: auto;
 }
-.s-input{
-    width: 100%;
-    
-}
+
 @media screen and (max-width: 768px){
-    .s-card-outline{
-        margin: auto;
-    }
+    .s-card-outline{margin: auto;}
 }
 @media screen and (max-width: 576px){
     .s-fs-4{font-size: 1rem !important;}
     .s-fs-5{font-size: .9rem !important;}
     .s-fs-6{font-size: .7rem !important;}
+    .p-none{padding: .3rem;}
+    .s-hight-card{height: max-content;}
 }
